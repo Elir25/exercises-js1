@@ -7,7 +7,17 @@
 */
 
 var name = "Daniel";
-var danielsRole = "mentor";
+var danielsRole = "Mentor";
+
+function danielFunction(name, danielsRole) {
+  if (danielsRole === "Mentor") {
+   return `Hi, I'm Daniel, I'm a mentor.`;
+  } else if (danielsRole === "student") {
+    return `Hi, I'm Daniel, I'm a student.`;
+  }
+}
+
+console.log(danielFunction(name, danielsRole));
 
 /* 
 EXPECTED RESULT
