@@ -6,12 +6,12 @@
 
 */
 
-let n = 4;
+let n = 10;
 
 function sumTillNum(num){
 	//your code here
 	let sum = 0;
-	for (let i = 0; i < num; i ++){
+	for (let i = 0; i <= num; i ++){
 		sum = sum + i
 	}
 	return sum;	
