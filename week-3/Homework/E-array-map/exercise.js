@@ -3,3 +3,18 @@
 
 var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
 
+//option 1 
+/*var numMultipliedBy100 = numbers.map(function(number){
+    return number *100;
+});*/ 
+
+//option2 shorter
+/*var numMultipliedBy100 = numbers.map(number => {
+    return number *100;
+});*/
+
+//option3 even shorter
+var numMultipliedBy100 = numbers.map(number => number *100);
+
+
+console.log(numMultipliedBy100);
