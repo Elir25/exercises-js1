@@ -4,6 +4,10 @@
 */
 
 // write your code here
+/* mi codigo de ayer*/ function findLongNameThatStartsWithA(names) {
+    return names.length > 7 && names.startsWith("A");
+
+} //esta parte
 
 var names = ["Rakesh", "Antonio", "Alexandra", "Andronicus", "Annam", "Mikey", "Anastasia", "Karim", "Ahmed"];
 
