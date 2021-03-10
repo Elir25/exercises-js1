@@ -8,8 +8,10 @@
   NOTE: don't include any element that is not a "family".
 */
 
-function colonisers() {
-
+function colonisers(familiesArray) {
+    return familiesArray
+    .filter((item) => item.includes("family"))
+    .filter((item) => item.startsWith("A"))
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
