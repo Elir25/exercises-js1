@@ -16,7 +16,7 @@ function calculateGrade(mark) {
    return "B";
  }
  if (mark >= 50) {
-  return "C"
+  return "C";
  } 
   return "F";
  
