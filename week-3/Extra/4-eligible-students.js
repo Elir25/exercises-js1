@@ -20,8 +20,8 @@
 }*/
 function eligibleStudents(arrayStudentsAndAttendance) {
   return arrayStudentsAndAttendance
-  .filter((itemN) => itemN >= 8)
-  .map((itemName) => itemName )
+  .filter((itemN) => itemN[1] >= 8)
+  .map((itemName) => itemName[0])
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
