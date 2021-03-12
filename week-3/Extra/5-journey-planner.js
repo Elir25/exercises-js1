@@ -7,8 +7,8 @@
   NOTE: only the names should be returned, not the means of transport.
 */
 
-function journeyPlanner() {
-  
+function journeyPlanner(transportMode) {
+    return transportMode.filter()
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
